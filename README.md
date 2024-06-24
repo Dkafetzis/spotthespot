@@ -1,16 +1,12 @@
-# spotthespot
+# SpotTheSpot
 
-A landmark classification app
+The landmark classification app
 
-## Getting Started
+## Requirements
+- [Flutter](https://docs.flutter.dev/get-started/install)
+- The files for the 2 models (either train your own or download from [here](https://drive.google.com/drive/folders/1TSOSFEXRmrpefP1KcRagr-umdz0FvJEa?usp=sharing))
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Building the application
+1. Move the models to the `assets/models` directory
+2. Run `flutter build apk`
+3. If an android emulator is installed run `flutter run dev`
